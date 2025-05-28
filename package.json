@@ -6,9 +6,10 @@
   "dev": "next dev",
   "build": "next build",
   "start": "npx serve out",
-  "lint": "next lint",
-  "deploy": "pnpm run build && gh-pages -d out"
+  "export": "next export",
+  "deploy": "pnpm run build && pnpm run export && gh-pages -d out"
 }
+
 
 
 
