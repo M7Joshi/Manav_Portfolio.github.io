@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "pnpm run build && gh-pages -d out"
   },
   "dependencies": {
     "@types/node": "20.1.4",
@@ -30,6 +31,7 @@
     "@iconify/react": "4.1.0",
     "@svgr/webpack": "8.0.1",
     "@types/react-scroll": "1.8.7",
+    "gh-pages": "^6.3.0",
     "sass": "1.62.1"
   }
 }
