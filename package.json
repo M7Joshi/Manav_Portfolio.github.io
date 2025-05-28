@@ -5,11 +5,12 @@
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next export",
+  "export": "next build && next export",
   "start": "npx serve@latest out",
   "lint": "next lint",
-  "deploy": "pnpm run build && pnpm run export && gh-pages -d out"
+  "deploy": "pnpm run export && gh-pages -d out"
 }
+
 
 ,
 
