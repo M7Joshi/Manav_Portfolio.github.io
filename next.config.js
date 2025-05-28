@@ -1,6 +1,3 @@
-/** @type {import('next').NextConfig} */
-/** @type {import('next').NextConfig} */
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   images: {
@@ -8,5 +5,3 @@ const nextConfig = {
   },
   basePath: '/Manav_Portfolio.github.io',
 };
-
-module.exports = nextConfig;
